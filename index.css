@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(217, 54%, 11%);
+}
+.container{
+     border: 2px solid transparent;
+     border-radius: 20px;
+     height: 85vh;
+     margin: 40px 500px 0px 500px;
+     background-color:hsl(216, 50%, 16%) ;
+}
+.equilibrium-img-container{
+   margin: 30px 40px 30px 40px;  
+}
+.equilibrium-img{
+    width: 100%;
+    border-radius: 20px;  
+}
+.equilibrium-text h3{
+    color: white;
+    padding: 10px 0px 20px 0px;
+    margin: 20px 0px 0px 40px;
+}
+.equilibrium-text p{
+    color: hsl(215, 51%, 70%);
+    padding: 0px 40px;
+    font-size: 18px;
+}
+.price-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.price-area{
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+.price-area p{
+    color:  hsl(178, 100%, 50%);
+    padding-left: 15px;
+}
+.time-area{
+    display: flex;
+    padding-right: 25px;
+}
+.time-area p{
+    color:  hsl(215, 51%, 70%);
+    padding-left: 5px;
+}
+hr{
+    margin: 40px;
+    align-items: center;
+    width: 80%;
+    background-color: hsl(215, 32%, 27%);
+}
+.profile-container{
+    display: flex;
+   align-items:center;
+}
+.profile-container-text{
+    padding-left: 10px;
+    color: white;
+}
+.profile-pic{
+   width:50px ;
+   border: 1px solid white ;
+   border-radius: 50%;
+   margin-left: 50px;
+}
+.creation{
+    color: hsl(215, 51%, 70%);
+}
+.attribution { 
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+ }
+.attribution a {
+    color: white; 
+}
+.attribution p{
+    color: hsl(215, 50%, 51%);
+}
+@media only screen  and ( max-width:500px) {
+    body{
+        background-color:  hsl(217, 54%, 11%);
+    }
+    .container{
+        border: 2px solid transparent;
+        border-radius: 20px;
+        background-color:hsl(216, 50%, 16%) ;
+        margin: 30px;
+   }
+   .equilibrium-img-container{
+    margin: 10px 20px 30px 20px;  
+ }
+ .equilibrium-text h3{
+    color: white;
+    padding: 0px 0px 20px 0px;
+    margin: 10px 0px 0px 20px;
+}
+.equilibrium-text p{
+    color: hsl(215, 51%, 70%);
+    padding: 0px 20px;
+    font-size: 11px;
+}
+hr{
+    margin: 20px;
+    align-items: center;
+    width: 80%;
+    background-color: hsl(215, 32%, 27%);
+}
+.profile-pic{
+    width:50px ;
+    border: 1px solid white ;
+    border-radius: 50%;
+    margin-left: 20px;
+ }
+ .attribution { 
+    font-size: 11px;
+    text-align: center;
+    padding-top: 5px;
+ }
+}
+
+

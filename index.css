@@ -66,6 +66,7 @@ hr{
 .profile-container{
     display: flex;
    align-items:center;
+    margin-bottom:20px;
 }
 .profile-container-text{
     padding-left: 10px;
